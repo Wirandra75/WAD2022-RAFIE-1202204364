@@ -1,0 +1,131 @@
+
+*, html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 50;
+
+}
+
+section{
+    height: 120vh;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.container-menu{
+    height: 70px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(200, 227, 251);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.menu-li{
+    list-style-type: none;
+    padding: 15px;
+    margin: 15px;
+}
+
+.menu-ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+
+}
+
+.menu-a{
+    text-decoration: 100%;
+    color: rgb(204, 201, 201);
+    font-size: 11pt;
+    font-weight: 2;
+}
+
+.menu-li:hover{
+    background-color: rgb(231, 229, 229);
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+.menu-li:hover>a{
+    color: white;
+}
+
+.paragraf-TK{
+    font-size: 11pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    font-weight: 2;
+}
+
+.container-JM{
+    padding: 80px;
+}
+
+.container-TK{
+    padding: 80px;
+    background-color: rgb(199, 215, 230);
+}
+
+.container-LK{
+    padding: 80px;
+}
+
+
+.container-PM{
+    padding: 350px;
+
+}
+
+.container-Reservasi{
+    padding: 80px;
+    height: 200;
+    width: 300;
+}
+
+.card{
+    width: 20rem;
+}
+
+.row{
+    display: flex;
+
+}
+
+.column{
+    flex: 5%;
+    text-align: left;
+}
+#harga{
+    font-size: 18px;
+    text-align: left;
+}
+
+
+.footer{
+    background-color: rgb(199, 215, 230);
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+    bottom: 0%;
+    text-align: center;
+}
+
