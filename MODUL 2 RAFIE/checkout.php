@@ -10,10 +10,10 @@
 </head>
 <body>
 <?php
-    $Nama = $_POST["nama"];
+    $Nama = $POST["nama"];
     $tanggal = $_POST["tanggal"];
     $waktu_awal = $_POST["waktu"];
-    $durasi_booking = $_POST["durasi_boking"];
+    $durasi_booking = $_P0ST["durasi_boking"];
     $jenis = $_POST["jenis"];
     $phone = $_POST["no"];
     $checkout = date("Y-m-d", strtotime("+$durasi_booking days", strtotime($tanggal)));
@@ -26,7 +26,7 @@
     array_push($harga_layanan, 2);
     }
     if (isset($_POST["supir"])) {
-    array_push($layanan, $_POST["supir"]);
+    array_push($layanan, $_POST["Supir"]);
     array_push($harga_layanan, 100);
     }
     if (isset($_POST["bensin"])) {
