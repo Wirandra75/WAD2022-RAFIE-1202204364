@@ -84,7 +84,7 @@ $agya = "mobil agya.jpg";
                 <li class="fw-bold text-primary text-center list-group-item">MANUAL</li>
             </ul>
             <div class="card-body text-center bg-light">
-                <a href="Diki_booking.php?mobil=<?= $agya?>" class="card-link btn btn-primary">
+                <a href="booking.php?mobil=<?= $agya?>" class="card-link btn btn-primary">
                     BOOK NOW
                 </a>
                 </div>
