@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    background-color: rgb(85, 123, 213);
+  }
+  
+  .nav-link {
+    color: #fff;
+  }
+  
+  .home {
+    height: 90vh;
+  }
+  
+  .toast {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+  }
+  
+  .login-register {
+    background-image: url("images/foto\ hiace.png");
+    background-size: cover;
+  }
+  
+  .form-width {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .harus-diisi::after {
+    content: "*";
+    color: red;
+  }
+  
