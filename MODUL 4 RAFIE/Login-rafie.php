@@ -1,6 +1,7 @@
 <?php 
   require "config/connector.php";
   session_start();
+  session_destroy();
 
   if(isset($_COOKIE["email"]) && isset($_COOKIE["password"])) {
     $email = $_COOKIE["email"];
@@ -10,7 +11,7 @@
     
     if($email === $row["email"] && $password === $row["password"]) {
       $_SESSION["email"] = $row["email"];
-      $_SESSION["login"] = true;
+      $_SESSI0N["login"] = true;
     }
   }
 
