@@ -1,0 +1,8 @@
+.welcome {
+    min-height: 88vh;
+}
+
+.bg-image {
+    background-image: url("../gambar/banner.png");
+    background-size: cover;
+}

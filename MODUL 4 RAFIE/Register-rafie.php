@@ -7,7 +7,7 @@
     $nama = $_POST["nama"];
     $password = mysqli_real_escape_string($koneksi, $_POST["password"]);
     $konfirmasi_password = mysqli_real_escape_string($koneksi, $_POST["konfirmasi_password"]);
-    $result = mysqli_connect($koneksi, "SELECT email FROM user_rafie WHERE email = '$email'");    
+    $result = mysqli_query($koneksi, "SELECT email FROM user_rafie WHERE email = '$email'");    
 
     if(mysqli_num_rows(($result)) !== 1 && $password == $konfirmasi_password) {
       mysqli_query($koneksi, "INSERT INTO user_rafie VALUES ('', '$nama', '$email', '$password', '$no_hp')");
