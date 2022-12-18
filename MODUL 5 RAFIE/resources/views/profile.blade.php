@@ -54,7 +54,7 @@
     </form>
     <div class="d-flex align-items-center">
       <img src="/gambar/logo-ead.png" alt="Logo EAD" width="100">
-      <span class="ms-5">Sulaiman_1202204166</span>
+      <span class="ms-5">RAFIE_1202204364</span>
     </div>
   </div>
 
