@@ -4,7 +4,7 @@
   @include('components.navbar')
   <div class="container mt-4">
     <h2 class="fw-bold">Tambah Mobil</h2>
-    <p>Tambah Mobil Baru Anda ke List Show Room</p>
+    <p>Silahkan Tambah Mobil Baru Anda ke List Show Room!</p>
     <div class="row mt-4">
       <div class="col-10">
         <form action="/showroom" method="post" enctype="multipart/form-data">
